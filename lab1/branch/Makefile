@@ -1,8 +1,11 @@
 branch := branch
 branch_objs := branch.o hpctimer.o
+perf1 := sudo perf stat -e branch-misses ./$(branch)
+perf2 := sudo perf stat ./$(branch)
+report := sudo perf record -e ./$(branch)
 
 CC := gcc
-CFLAGS := -O0 -Wall -g -std=c11
+CFLAGS := -O2 -Wall -g -std=c11
 LDFLAGS :=
 
 .PHONY: all clean
@@ -20,3 +23,9 @@ hpctimer.o: hpctimer.c hpctimer.h
 
 clean:
 	@rm -rf *.o $(branch)
+
+test: all
+	$(perf2)
+
+report: all
+	$(report)

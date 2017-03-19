@@ -1,0 +1,253 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"yy",
+				"yytext"
+			],
+			[
+				"ar",
+				"argv"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/kurs/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/kurs/y.tab.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/kurs/input.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/kurs/temp.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/kurs/input.y",
+		"/home/rvgorlov/Рабочий стол/sql.sql",
+		"/home/rvgorlov/Рабочий стол/3 лаба",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/lab_bison.b",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/for.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/for.y",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/a.out",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/y.tab.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/hash_table.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/for.tab.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/lex.yy.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/prog",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/y.tab.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/a.out",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/tab_id.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab4/ast.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/tab_id.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab2/input.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/temp.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/input.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab2/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/for.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/prog",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/lex.yy.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/hash_table.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab3/tab_id (копия).h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab2/for.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab2/lex.yy.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TIAP/Lab2/prog",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/a.out",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/temp.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/lex.yy.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/lab3.sublime-project",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/input.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/indentificators_table.h",
+		"/home/rvgorlov/Загрузки/lab_2.l",
+		"/home/rvgorlov/Загрузки/Mungalov/ТЯП/hash_table.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/output",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab3/LabWork3.pdf",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/Makefile.txt",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/lab_flex.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab2/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab2/temp.c",
+		"/home/rvgorlov/cdek-remote.sh",
+		"/etc/apt/sources.list",
+		"/home/rvgorlov/Загрузки/temp.txt",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/script.sh",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/tab_id.h",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab2/lex.yy.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/lab2/input.l",
+		"/home/rvgorlov/testfile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/temp.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/Makefile",
+		"/home/rvgorlov/StudyDev/Bitbucket/TeorYazProgAndMetTrans/input.l",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/prog.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/y.tab.c",
+		"/home/rvgorlov/StudyDev/Bitbucket/TLPaMT/lab.txt",
+		"/home/rvgorlov/temp/input.l",
+		"/home/rvgorlov/temp/Makefile",
+		"/home/rvgorlov/temp/lex.yy.c"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 90.0,
+		"where_history":
+		[
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"HASHTAB_MUL",
+			"HASHTAB_SIZE",
+			"stdio",
+			"yylex",
+			"quantal",
+			"test",
+			"http://dl.google.com/linux/deb/",
+			"deb http://dl.google.com/linux/deb/",
+			"deb http://dl.google.com/linux/deb/ testing non-free",
+			"yylex"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"TAB_MUL",
+			"TAB_SIZE",
+			"SIZE"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "project.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
