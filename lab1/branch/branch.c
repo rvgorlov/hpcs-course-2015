@@ -59,18 +59,19 @@ void blend_map_opt(double *dest, double *a, double *b, int size, int blend)
 
 int main()
 {
+    printf("\n\nОптимизация. Код - ДА, Компилятор - НЕТ\n\n");
     double tfirst, t;
     int i;
     
     /* First run: warmup */
     tfirst = hpctimer_wtime();
-    blend_map(z, x, y, n, 0);
+    blend_map_opt(z, x, y, n, 0);
     tfirst = hpctimer_wtime() - tfirst;
 
     /* Measures */
     t = hpctimer_wtime();
     for (i = 0; i < nreps; i++) {
-        blend_map(z, x, y, n, 0);
+        blend_map_opt(z, x, y, n, 0);
     }
     t = (hpctimer_wtime() - t) / nreps;
 

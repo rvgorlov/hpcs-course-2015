@@ -5,7 +5,7 @@ perf2 := sudo perf stat ./$(branch)
 report := sudo perf record -e ./$(branch)
 
 CC := gcc
-CFLAGS := -O2 -Wall -g -std=c11
+CFLAGS := -O0 -Wall -g -std=c11
 LDFLAGS :=
 
 .PHONY: all clean

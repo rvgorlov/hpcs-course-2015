@@ -1,6 +1,11 @@
 loop := loop
 loop_objs := loop.o hpctimer.o
 
+perf1 := sudo perf stat -e branch-misses ./$(loop)
+perf2 := sudo perf stat ./$(loop)
+report := sudo perf record -e ./$(loop)
+
+
 CC := gcc
 CFLAGS := -O0 -Wall -g -std=c11
 LDFLAGS :=
