@@ -31,7 +31,7 @@ int main()
     t = hpctimer_wtime();
     /* TODO: Unroll this loop */
     for (i = 0; i < n; i += 16) {
-        s1 += v[i];
+    /*    s1 += v[i];
         s2 += v[i + 1];
         s3 += v[i + 2];
         s4 += v[i + 3];
@@ -46,10 +46,11 @@ int main()
         s13 += v[i + 12];
         s14 += v[i + 13];
         s15 += v[i + 14];
-        s16 += v[i + 15];
+        s16 += v[i + 15];*/
+        sum += v[i]; 
     }
     t = hpctimer_wtime() - t;
-    sum = s1 + s2 + s3 + s4; 
+    //sum = s1 + s2 + s3 + s4 + s5 + s6 + s7 + s8 + s9 + s10 + s11 + s12 + s13 + s15 + s16; 
 
     printf("Sum = %ld\n", sum);
     printf("Elapsed time (sec.): %.6f\n", t);

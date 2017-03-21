@@ -59,7 +59,6 @@ void blend_map_opt(double *dest, double *a, double *b, int size, int blend)
 
 int main()
 {
-    printf("\n\nОптимизация. Код - ДА, Компилятор - НЕТ\n\n");
     double tfirst, t;
     int i;
     

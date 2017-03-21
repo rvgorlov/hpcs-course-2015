@@ -1,0 +1,47 @@
+Оптимизированная
+
+hpctimer: Initializing timer...
+hpctimer: TSC ticks per second: 1496683143 (1.50 GHz)
+Sum = 16777216
+Elapsed time (sec.): 0.161770
+
+ Performance counter stats for './loop':
+
+        579,248239      task-clock (msec)         #    0,160 CPUs utilized          
+                29      context-switches          #    0,050 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               692      page-faults               #    0,001 M/sec                  
+       852 986 231      cycles                    #    1,473 GHz                      (83,43%)
+       478 617 573      stalled-cycles-frontend   #   56,11% frontend cycles idle     (83,48%)
+        65 334 429      stalled-cycles-backend    #    7,66% backend cycles idle      (66,89%)
+     1 154 249 645      instructions              #    1,35  insn per cycle         
+                                                  #    0,41  stalled cycles per insn  (83,46%)
+        73 078 243      branches                  #  126,160 M/sec                    (83,49%)
+            13 449      branch-misses             #    0,02% of all branches          (82,82%)
+
+       3,616476316 seconds time elapsed
+
+
+Не Оптимизированная
+
+
+hpctimer: Initializing timer...
+hpctimer: TSC ticks per second: 1496683143 (1.50 GHz)
+Sum = 16777216
+Elapsed time (sec.): 0.161770
+
+ Performance counter stats for './loop':
+
+        579,248239      task-clock (msec)         #    0,160 CPUs utilized          
+                29      context-switches          #    0,050 K/sec                  
+                 0      cpu-migrations            #    0,000 K/sec                  
+               692      page-faults               #    0,001 M/sec                  
+       852 986 231      cycles                    #    1,473 GHz                      (83,43%)
+       478 617 573      stalled-cycles-frontend   #   56,11% frontend cycles idle     (83,48%)
+        65 334 429      stalled-cycles-backend    #    7,66% backend cycles idle      (66,89%)
+     1 154 249 645      instructions              #    1,35  insn per cycle         
+                                                  #    0,41  stalled cycles per insn  (83,46%)
+        73 078 243      branches                  #  126,160 M/sec                    (83,49%)
+            13 449      branch-misses             #    0,02% of all branches          (82,82%)
+
+       3,616476316 seconds time elapsed
