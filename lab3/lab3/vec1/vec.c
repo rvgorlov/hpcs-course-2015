@@ -73,8 +73,8 @@ int main(int argc, char **argv)
 			      
     t = hpctimer_getwtime();
     for (i = 0; i < NREPS; i++) {
-        fun_sse(a, b, c, N);
-        //fun_def(a, b, c, N);
+        //fun_sse(a, b, c, N);
+        fun_def(a, b, c, N);
     }
     t = hpctimer_getwtime() - t;
     t = t / NREPS;

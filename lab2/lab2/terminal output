@@ -1,0 +1,31 @@
+dgemm_def
+
+Elapsed time: 2.810542 sec.
+
+ Performance counter stats for './dgemm':
+
+        38 239 149      cache-misses                                                
+
+       9,607108813 seconds time elapsed
+
+
+dgemm_transpose2
+
+Elapsed time: 1.402801 sec.
+
+ Performance counter stats for './dgemm':
+
+           442 651      cache-misses                                                
+
+       5,411152134 seconds time elapsed
+
+
+dgemm_block 16
+
+Elapsed time: 0.805916 sec.
+
+ Performance counter stats for './dgemm':
+
+           342 785      cache-misses                                                
+
+       3,618409729 seconds time elapsed
